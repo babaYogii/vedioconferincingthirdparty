@@ -20,7 +20,7 @@ const Home = () => {
       <div className="relative h-screen ">
         
         <div className="absolute h-full w-full flex overflow-hidden">
-          <img src="https://static-prod.adweek.com/wp-content/uploads/2020/03/behr-zoom-background-1-2020-1240x620.jpg.webp" className="object-cover  w-full h-full" />
+          <img src="https://static-prod.adweek.com/wp-content/uploads/2020/03/behr-zoom-background-1-2020-1240x620.jpg.webp" alt="loading..." className="object-cover  w-full h-full" />
         </div>
       
         <div className="absolute h-full w-full flex overflow-hidden bg-black/60"></div>
