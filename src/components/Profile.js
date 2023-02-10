@@ -25,7 +25,8 @@ const ExpandMore = styled((props) => {
     duration: theme.transitions.duration.shortest,
   }),
 }));
-
+const user=localStorage.getItem('user')
+console.log(user)
 export default function RecipeReviewCard() {
   const [expanded, setExpanded] = React.useState(false);
 
